@@ -7,7 +7,6 @@
     <tr>
       <th>Url</th>
       <th>Headline</th>
-      <th>Description</th>
       <th>Category</th>
       <th>Checker</th>
       <th>Verdict</th>
@@ -20,18 +19,18 @@
       <tr>
         <td><%= news.url %></td>
         <td><%= news.headline %></td>
-        <td><%= news.description %></td>
         <td><%= news.category.name %></td>
         <td><%= news.checker.name %></td>
-        <td><%= news.verdict.name %></td>
+        <td><%= news.verdict.countdown %></td>
         <td><%= link_to 'Show', news %></td>
         <td></td>
         <td></td>
+      </tr>
+      <tr>
+        <td colspan="9"><i style="font-size:70%"><%= news.description %></i></td>        
       </tr>
     <% end %>
   </tbody>
 </table>
 
 <br>
-
-<%= link_to 'New News', new_news_path %>
