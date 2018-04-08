@@ -1,24 +1,5 @@
-# README
+# Quer Valer
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the PUC-Rio Team's repo for the Global Editors Lab Hackathon in Sao Paulo, April 2018
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+We'll describe things later...
