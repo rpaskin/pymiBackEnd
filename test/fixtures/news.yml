@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  url: MyString
+  headline: MyString
+  description: MyText
+  category: one
+  checker: one
+  verdict: one
+
+two:
+  url: MyString
+  headline: MyString
+  description: MyText
+  category: two
+  checker: two
+  verdict: two

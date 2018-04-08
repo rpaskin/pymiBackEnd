@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @checker.name %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @checker.url %>
+</p>
+
+<%= link_to 'Edit', edit_checker_path(@checker) %> |
+<%= link_to 'Back', checkers_path %>

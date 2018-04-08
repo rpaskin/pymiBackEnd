@@ -1,0 +1,22 @@
+<%= form_with(model: verdict, local: true) do |form| %>
+  <% if verdict.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(verdict.errors.count, "error") %> prohibited this verdict from being saved:</h2>
+
+      <ul>
+      <% verdict.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name, id: :verdict_name %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
