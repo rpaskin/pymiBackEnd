@@ -2,7 +2,7 @@
 
 <p>
   <strong>Url:</strong>
-  <%= @news.url %>
+  <a href="<%= @news.url %>"><%= @news.url %></a>
 </p>
 
 <p>
@@ -17,17 +17,17 @@
 
 <p>
   <strong>Category:</strong>
-  <%= @news.category %>
+  <%= @news.category.name %>
 </p>
 
 <p>
   <strong>Checker:</strong>
-  <%= @news.checker %>
+  <%= @news.checker.name %>
 </p>
 
 <p>
   <strong>Verdict:</strong>
-  <%= @news.verdict %>
+  <%= @news.verdict.name %>
 </p>
 
 <%= link_to 'Edit', edit_news_path(@news) %> |

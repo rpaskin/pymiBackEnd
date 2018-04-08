@@ -7,6 +7,14 @@ class NewsController < ApplicationController
     @news = News.all
   end
 
+  def hot
+		if params[:search]
+      @news = News.search(params[:search]).order("created_at DESC")
+    else
+      @news = News.all.order('created_at DESC')
+    end
+  end
+
   # GET /news/1
   # GET /news/1.json
   def show
