@@ -3,7 +3,7 @@
 
 This is the PUC-Rio Team's repo for a Global Editors/ Globo Lab Hackathon in Sao Paulo, April 2018 project.
 
-This is a starter Ruby on Rails back end with CRUD frameworks for Categories, Verdicts, Fact Checkers and News, as well as RESTful services for all of that.
+This is a starter Ruby on Rails back end with CRUD frameworks for Categories, Verdicts, Fact Checkers and News, as well as RESTful services for all of that. The home page is a "hot" list of controversial news items.
 
 ![Journalist Icon](https://raw.githubusercontent.com/rpaskin/pymibot/master/icon-02.png "PymiBot Icon")
 
@@ -11,9 +11,12 @@ This is a starter Ruby on Rails back end with CRUD frameworks for Categories, Ve
 
 ## Features
 
-- 
-- Fetching of data from back-end
-- Humor
+- CRUDs for:
+  - Categories
+  - Verdicts
+  - Fact Checkers
+  - News Items
+- A "hot news" landing page
 
 ## Requirements
 
